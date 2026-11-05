@@ -36,6 +36,7 @@
         cargoLock.lockFile = ./Cargo.lock;
 
         nativeBuildInputs = buildPkgs ++ [pkgs.cacert];
+        nativeCheckInputs = [pkgs.curl];
         dontUseCmakeConfigure = true;
         SSL_CERT_FILE = "${pkgs.cacert}/etc/ssl/certs/ca-bundle.crt";
 
