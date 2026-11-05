@@ -1,14 +1,14 @@
 [package]
-name = "matrix-tui"
+name = "mx-tui"
 description = "Keyboard-driven terminal client for Matrix"
 authors = ["Paul Chambaz <paul.chambaz@tutanota.com>"]
 homepage = "https://github.com/paulchambaz/matrix-tui"
-version = "1.3.0"
+version = "1.0.0"
 edition = "2021"
 include = ["/src/**/*", "/mx.1.scd", "/README.md", "/LICENSE"]
 license = "GPL-3.0-only"
 readme = "README.md"
-documentation = "https://docs.rs/matrix-tui"
+documentation = "https://docs.rs/mx-tui"
 repository = "https://github.com/paulchambaz/matrix-tui"
 keywords = ["matrix", "chat", "tui", "terminal", "client"]
 categories = ["command-line-utilities"]

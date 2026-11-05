@@ -30,7 +30,7 @@
       ];
     in {
       packages.default = pkgs.rustPlatform.buildRustPackage {
-        pname = "matrix-tui";
+        pname = "mx-tui";
         version = (builtins.fromTOML (builtins.readFile ./Cargo.toml)).package.version;
         src = ./.;
         cargoLock.lockFile = ./Cargo.lock;

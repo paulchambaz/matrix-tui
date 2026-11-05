@@ -2,6 +2,8 @@
 
 matrix-tui (`mx`) is a keyboard-driven terminal client for Matrix. Several accounts and spaces side by side, live messages, unread and mentions, a channel finder, your own editor for writing, and your own programs for opening links and attachments.
 
+![](./demo.gif)
+
 ## Installation
 
 ### Nix
@@ -15,7 +17,7 @@ Or add `github:paulchambaz/matrix-tui` as an input of your flake and install its
 ### Cargo
 
 ```sh
-cargo install matrix-tui
+cargo install mx-tui
 ```
 
 This installs the `mx` command.
