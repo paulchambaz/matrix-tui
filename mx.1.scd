@@ -625,7 +625,7 @@ _~/.config/mx/servers.toml_
 _~/.config/mx/config.toml_
 	The settings above.
 
-_~/.local/share/mx/_name_/_
+_~/.local/share/mx/<name>/_
 	The session of a server, with the keys of the account and the messages
 	kept for encryption. Readable only by you. Removing the folder makes
 	*mx* log in again with a new device.
