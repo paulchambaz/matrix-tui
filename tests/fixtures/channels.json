@@ -1,0 +1,4 @@
+[{"id":"c1","create_at":1,"update_at":1,"delete_at":0,"team_id":"t1","type":"O","display_name":"Town Square","name":"town-square","header":"","purpose":"","last_post_at":1700000060000,"total_msg_count":2,"extra_update_at":0,"creator_id":""},
+ {"id":"c2","team_id":"","type":"D","display_name":"","name":"u1__u2","peer":"u2","last_post_at":1700000050000,"total_msg_count":0,"delete_at":0},
+ {"id":"c3","team_id":"t1","type":"P","display_name":"Secret","name":"secret","last_post_at":1700000090000},
+ {"id":"c4","team_id":"","type":"G","display_name":"ana, bob","name":"deadbeef","last_post_at":1700000040000}]

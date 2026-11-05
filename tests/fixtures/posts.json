@@ -1,0 +1,5 @@
+{"order":["p2","p1"],"next_post_id":"","prev_post_id":"","has_next":false,
+ "posts":{
+  "p1":{"id":"p1","create_at":1700000000000,"update_at":1700000000000,"edit_at":0,"delete_at":0,"user_id":"u1","channel_id":"c1","root_id":"","message":"hello :tada:","type":"","props":{},"hashtags":"","file_ids":[],"metadata":{}},
+  "p2":{"id":"p2","create_at":1700000060000,"update_at":1700000070000,"edit_at":1700000070000,"delete_at":0,"user_id":"u2","channel_id":"c1","root_id":"p1","message":"hi","type":"","props":{},"hashtags":"","file_ids":["f1"],"metadata":{"reactions":[{"user_id":"u1","post_id":"p2","emoji_name":"+1","create_at":1700000080000}],"files":[{"id":"f1","name":"a.png","size":12}]}}
+ }}
