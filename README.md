@@ -17,7 +17,7 @@ Or add `github:paulchambaz/matrix-tui` as an input of your flake and install its
 ### Cargo
 
 ```sh
-cargo install mx-tui
+cargo install matrix-tui
 ```
 
 This installs the `mx` command.

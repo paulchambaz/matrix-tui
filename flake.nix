@@ -30,13 +30,14 @@
       ];
     in {
       packages.default = pkgs.rustPlatform.buildRustPackage {
-        pname = "mx-tui";
+        pname = "matrix-tui";
         version = (builtins.fromTOML (builtins.readFile ./Cargo.toml)).package.version;
         src = ./.;
         cargoLock.lockFile = ./Cargo.lock;
 
-        nativeBuildInputs = buildPkgs;
+        nativeBuildInputs = buildPkgs ++ [pkgs.cacert];
         dontUseCmakeConfigure = true;
+        SSL_CERT_FILE = "${pkgs.cacert}/etc/ssl/certs/ca-bundle.crt";
 
         postInstall = ''
           mkdir -p $out/share/man/man1
